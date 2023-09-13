@@ -1,0 +1,55 @@
+/* Footer Container */
+footer {
+    background: #2d2e32;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 4rem;
+}
+
+/* Text within the Footer */
+footer .text span {
+    font-size: 17px;
+    font-weight: bolder;
+    color: #000000;
+}
+
+/* Links within the Footer Text */
+footer .text span a {
+    font-weight: 500;
+    color: #000000;
+}
+
+/* Hover Effect for Footer Links */
+footer .text span a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Text Area */
+.text {
+    left: 0;
+    padding: 15px 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2d2e32;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 750;
+}
+
+
+/* ICON Styles */
+.media-icons a i {
+    color: rgb(255, 255, 255);
+    /* Set the color to white */
+    font-size: 24px; /* Increase the icon size as needed */
+    transition: color 0.3s ease; /* Add a smooth color transition */
+  }
+  .media-icons a i:hover {
+    color: #ff5733; /* Change the color on hover to your desired color */
+  }
+  
+  .media-icons a {
+    text-decoration: none; /* Remove underlines from the links */
+    margin-right: 20px; /* Add some margin to create a gap between icons */
+  }
+  

@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+/* Extra Small Devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Add your CSS rules for extra small devices here */
+  }
+  
+  /* Small Devices (tablets, 576px and up) */
+  @media (min-width: 576px) {
+    /* Add your CSS rules for small devices here */
+  }
+  
+  /* Medium Devices (desktops, 768px and up) */
+  @media (min-width: 768px) {
+    /* Add your CSS rules for medium devices here */
+  }
+  
+  /* Large Devices (large desktops, 992px and up) */
+  @media (min-width: 992px) {
+    /* Add your CSS rules for large devices here */
+  }
+  
+  /* Extra Large Devices (extra large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* Add your CSS rules for extra large devices here */
+  }
+  

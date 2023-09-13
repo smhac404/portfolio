@@ -1,0 +1,67 @@
+<!-- navgaition menu -->
+<nav id="navbar_top" class="navbar navbar-expand-lg" style="background-color:#2d2e32;">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#home">
+            <!-- <img src="../../assets/sm logo transperant.png" alt=""> -->
+            Swastik.Web
+        </a>
+        <!-- <span class="navbar-toggler-icon"><img src="../../assets/sm logo transperant.png" alt="Swastik's Web Logo" style="margin-left: 60px;"></span> -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav" style="margin-left: 600px;">
+                <li class="active nav-item">
+                    <a class="nav-link font-weight-bold" href="#home">Home</a>
+                </li>
+                <li class="active nav-item">
+                    <a class="nav-link font-weight-bold" href="#about">About</a>
+                </li>
+                <li class="active nav-item">
+                    <a class="nav-link font-weight-bold" href="#project">Projects</a>
+                </li>
+                <li class="active nav-item">
+                    <a class="nav-link font-weight-bold" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <!-- Add the "Download CV" button -->
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a href="https://drive.google.com/file/d/1cDUfpZ7YO64p9ALCgUT5Mfbzr_736haP/view?usp=drive_link"
+                    target="_blank" class="btn" style="margin-left: 600px; color: #fff; background-color:#ff490cc2; font-weight: 700;">Download CV</a>
+            </div>
+
+            <div class="line"></div>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Include Font Awesome (if not already included) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<!-- JavaScript for Scroll Up Button -->
+<script>
+    $(document).ready(function () {
+        // Show or hide the scroll-up button based on scroll position
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#scroll-up-button').fadeIn(200);
+            } else {
+                $('#scroll-up-button').fadeOut(200);
+            }
+        });
+
+        // Scroll to the top when the scroll-up button is clicked
+        $('#scroll-up-button a').click(function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 800); // You can adjust the scroll speed here
+            return false;
+        });
+    });
+</script>

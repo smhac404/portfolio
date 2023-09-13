@@ -1,0 +1,146 @@
+<body class="custom-bg" id="project">
+    <div class="container">
+        <div class="row mt-5">
+            <!-- p1 -->
+            <div class="sec-title" style="margin-top: 12rem !important;">
+                <span class="title" style="text-align: center;">My Portfolio</span>
+
+                <h2>Each Project Is A Unique Piece Of Development</h2>
+
+            </div>
+            <div class="preview-card">
+                <div class="preview-card__wrp">
+                    <div class="preview-card__item">
+                        <div class="preview-card__img">
+                            <img src="https://media.istockphoto.com/id/1363191020/vector/online-car-rent-service-flat-design-concept.jpg?s=612x612&w=0&k=20&c=ozedJmP3jlVKyG78GVHurbmlZX9QVRKmWkaRmZj5k20="
+                                alt="">
+                        </div>
+                        <div class="preview-card__content">
+                            <span class="preview-card__code">26 December 2019</span>
+                            <div class="preview-card__title">Car Rental</div>
+                            <div class="preview-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Recusandae voluptate repellendus magni illo ea animi? </div>
+                                
+                            <!-- <a href="#" class="preview-card__button">READ MORE</a> -->
+
+                            <div class="card-link-container">
+                                <a href="#" class="card-link">Code  <i class="fab fa-github"></i></a>
+                                <a href="#" class="card-link">Live Demo</a>
+                            </div>
+                            <div class="projcard-tagbox" style="margin-left: 280px; margin-top: -35px; ">
+                                <!-- <div class="button button-1">HTML</div>
+                                <div class="button button-1">CSS</div>
+                                <div class="button button-1">JAVASCRIPT</div> -->
+                                
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- p2 -->
+            <div class="preview-card">
+                <div class="preview-card__wrp">
+                    <div class="preview-card__item swiper-slide">
+                        <div class="preview-card__img">
+                            <img src="https://media.kare11.com/assets/KARE/images/ad6242f9-b7e7-4b1d-b604-a00861291ec2/ad6242f9-b7e7-4b1d-b604-a00861291ec2_750x422.png"
+                                alt="">
+                        </div>
+                        <div class="preview-card__content">
+                            <span class="preview-card__code">26 December 2019</span>
+                            <div class="preview-card__title">CoinDom</div>
+                            <div class="preview-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Recusandae voluptate repellendus magni illo ea animi? </div>
+                            <!-- <a href="#" class="preview-card__button">READ MORE</a> -->
+                            <div class="card-link-container">
+                                <a href="#" class="card-link">Code  <i class="fab fa-github"></i></a>
+                                <a href="#" class="card-link">Live Demo</a>
+                            </div>
+
+                            <div class="projcard-tagbox" style="margin-left: 280px; margin-top: -35px; ">
+                                <!-- <div class="button button-1">HTML</div>
+                                <div class="button button-1">CSS</div>
+                                <div class="button button-1">JAVASCRIPT</div> -->
+                                
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- p3 -->
+            <div class="preview-card">
+                <div class="preview-card__wrp">
+                    <div class="preview-card__item swiper-slide">
+                        <div class="preview-card__img">
+                            <img src="https://tropeaka.com/cdn/shop/articles/main_image_d517c79f-4ec7-4946-bb5e-db7e80623e85_1080x.jpg?v=1571697737"
+                                alt="">
+                        </div>
+                        <div class="preview-card__content">
+                            <span class="preview-card__code">26 December 2019</span>
+                            <div class="preview-card__title">GTMATE</div>
+                            <div class="preview-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Recusandae voluptate repellendus magni illo ea animi? </div>
+                            <!-- <a href="#" class="preview-card__button">READ MORE</a> -->
+                            <div class="card-link-container">
+                                <a href="#" class="card-link">Code  <i class="fab fa-github"></i></a>
+                                <a href="#" class="card-link">Live Demo</a>
+                            </div>
+                            <div class="projcard-tagbox" style="margin-left: 280px; margin-top: -35px; ">
+                                <!-- <div class="button button-1">HTML</div>
+                                <div class="button button-1">CSS</div>
+                                <div class="button button-1">JAVASCRIPT</div> -->
+                                
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<!-- 
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="sec-title">
+                <span class="title" style="text-align: center;">My Portfolio</span>
+            </div>
+            <div class="preview-card" *ngFor="let project of projects">
+                Display project details here
+                <div class="preview-card__wrp">
+                    <div class="preview-card__item">
+                        <div class="preview-card__img">
+                            <img [src]="project.imageURL" alt="">
+                        </div>
+                        <div class="preview-card__content">
+                            <span class="preview-card__code">{{ project.date }}</span>
+                            <div class="preview-card__title">{{ project.name }}</div>
+                            <div class="preview-card__text">{{ project.description }}</div>
+                            <div class="card-link-container">
+                                <a [href]="project.codeLink" class="card-link">Code <i class="fab fa-github"></i></a>
+                                <a [href]="project.liveDemoLink" class="card-link">Live Demo</a>
+                            </div>
+                            <div class="projcard-tagbox" style="margin-left: -10px;">
+                                <div class="button button-1" *ngFor="let tag of project.tags">{{ tag }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body> -->
